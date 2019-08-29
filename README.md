@@ -1,5 +1,5 @@
 # template_backend_springboot_001_local
-Springboot, Spring Security, JPA 기반 템플릿
+AllInOne - Springboot, Spring Security, MyBayis, JPA 기반 템플릿(Local Ver - SK Hynix向)
 
 # 작업환경 설정
 * Git 설치
@@ -17,19 +17,14 @@ Springboot, Spring Security, JPA 기반 템플릿
 * 해당 폴더 위치에서 템플릿 프로젝트 GitHub에서 소스를 clone하여 다운 받습니다.  
   `git clone https://github.com/hitechinfo/template_backend_springboot_mybatis.git`
   * Tip) Git bash를 사용하셔도 좋지만 sourcetree 등과 같은 Git Client Tool을 사용하시면 소스를 관리하기 편리합니다.   
-## 서버 기동
-* Application.java - 우클릭 - Run As - Spring Boot App
-## 사용방법 및 기능 설명
-MainController.java 함수를 사용  
-rest url 추가 할때마다 common/security/SecurityConfig.java 파일의 configure function에 해당 url 추가 (authorized)
-## Swagger 확인 URL
-http://localhost:{Port}/swagger-ui.html#
-
-# 서버기동 방법
+## 서버기동 방법
 Application.java - 우클릭 - Spring Boot App
+## Swagger URL
+http://localhost:{Port}/swagger-ui.html#
 
 # 사용방법 및 기능 설명
 MainController.java 함수를 사용
+rest url 추가 할때마다 common/security/SecurityConfig.java 파일의 configure function에 해당 url 추가 (authorized)
 
 ## /main
 
